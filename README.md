@@ -38,3 +38,9 @@ PS: this might take some time as it’ll install all the programs and libraries 
 $ python zlogger.py
 ```
 
+## Removing the keylogger:
+
+- Go to star, type regedit and run the first program, this will open the registry editor.
+- Navigate to the following path Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+- There should be an entry called winexplorer, right click this entry and select Delete.
+- Go to your user path > AppData > Roaming, you’ll see a file named “Windows Explorer.exe”, this is the keylogger, right click > Delete.
